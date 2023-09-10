@@ -1,0 +1,49 @@
+.cart{
+    height: 23rem;
+    width: 21rem;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .akscart{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.3rem;
+        .aksz{
+            height: 5rem;
+        }
+        .host{
+            font-size: 23px;
+            font-weight: 900;
+        }
+        .nasb{
+            max-width: 14rem;
+            display: flex;
+            justify-content: center;
+            p{
+                text-align: center;
+            }
+            
+        }
+        .dokmeKharid{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 2.8rem;
+            width: 8.3rem;
+            background-color: #0B409C;
+            border-radius: 8px;
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #FFFFFF;
+                font-size: 17px;
+            }
+        }
+        
+    }
+}
