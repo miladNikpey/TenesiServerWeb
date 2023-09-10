@@ -1,0 +1,27 @@
+
+.khadamatHandle{
+    
+    .titr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1rem;
+        .titr1{
+            font-size: 32px;
+            padding: 0;
+            margin: 0;
+        }
+        .titr2{
+            font-size: 19px;
+            padding-top: .5rem;
+        }
+    }
+    .carts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3.2rem;
+        padding-top: 3rem;
+    }
+}
