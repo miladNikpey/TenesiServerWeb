@@ -1,0 +1,73 @@
+@font-face {
+    font-family: yekan;
+    src: url(../../src/assets/font/bakhY.ttf);
+}
+*{
+    direction: rtl;
+    font-family: yekan;
+
+}
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    height: 100px;
+
+    .nav{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 7rem;
+
+        li{
+            cursor: pointer;
+        }
+    }
+    .login{
+        display: flex;
+        gap: 3rem;
+
+        .poshtibani{
+            height: 2.6rem;
+            width: 7.5rem;
+            background-color: #D8D4E5;
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            border: 1px solid gray;
+            font-weight: 600;
+            font-size: .9rem;
+            cursor: pointer;
+        }
+        .poshtibani:hover{
+            background-color:#fff;
+            color: #0B409C;
+        }
+        .hesab{
+            height: 2.6rem;
+            width: 7.5rem;
+            background-color: #0B409C;
+            color: #D8D4E5;
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            border: 1px solid gray;
+            font-size: .9rem;
+            font-weight: 600;
+            cursor: pointer;
+           
+        }
+        .hesab:hover{
+            background-color:#fff;
+            color: #0B409C;
+        }
+    }
+    
+}
+
+
+
+
