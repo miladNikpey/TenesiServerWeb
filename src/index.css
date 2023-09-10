@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: yekan;
+    src: url(./assets/font/bakhY.ttf);
+}
+@font-face {
+    font-family: heavy;
+    src: url(./assets/font/Heavy.ttf);
+}
+*{
+    direction: rtl;
+    font-family: yekan;
+
+}
+body,p{
+    margin: 0;
+}
+.matn-1{
+    font-family: heavy !important;
+}
