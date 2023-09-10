@@ -1,0 +1,25 @@
+.nazarBackgroud{
+    
+    .background{
+     background-image: url("../../assets/image/backnazar.jpg");
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 2rem;
+     min-height: 36rem;
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin-top: 10rem;
+
+
+        .titr{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1{
+             font-size: 32px;   
+            }
+        }    
+    }
+}
