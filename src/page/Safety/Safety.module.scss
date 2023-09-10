@@ -1,0 +1,32 @@
+.SafetyMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10rem 5rem;
+    
+    h1{
+        font-size: 32px;
+        padding: 0;
+        margin: 0;
+        font-weight: 900;  
+    }
+    .titr2{
+        font-size: 19px;
+        max-width: 43rem;
+        padding-top: .5rem;
+        margin: 0;
+    }
+    .handleCard{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .titrpic{
+            img{
+                height: 22rem;
+            }
+        }
+        .cartes{
+            padding-bottom: 8rem;
+        }
+    }
+} 
